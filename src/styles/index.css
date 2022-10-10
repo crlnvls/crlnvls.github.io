@@ -72,7 +72,7 @@ h1 {
   font-family: "Noto Sans", sans-serif;
 }
 
-p {
+.info {
   color: rgb(112, 112, 112);
   font-size: 20px;
   font-family: "Noto Sans", sans-serif;
@@ -94,6 +94,23 @@ p {
 
 .cv:hover {
   background-color: #43215e;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: rgb(112, 112, 112);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.footer:hover {
+  color: #ae6de3;
 }
 
 @media only screen and (max-width: 850px) {
