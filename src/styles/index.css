@@ -16,9 +16,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
   margin-top: 30px;
   margin-left: 50px;
   margin-right: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.273),
+    0 6px 20px 0 rgba(0, 0, 0, 0.343);
 }
 
 img {
