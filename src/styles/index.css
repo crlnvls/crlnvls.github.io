@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inconsolata;
-  src: url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf");
+  src: url("../fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 
 @font-face {
@@ -64,7 +64,7 @@ img {
 .home {
   display: flex;
   flex-direction: column;
-  margin: 10vw 20vw;
+  margin: 10vw 20vw 30vw;
 }
 
 h4 {
@@ -107,19 +107,20 @@ h1 {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-bottom: 20px;
   color: rgb(112, 112, 112);
   font-family: Noto;
   font-size: 17px;
-  text-decoration: none;
-  margin-bottom: 20px;
 }
 
-.footer:hover {
+.footer-link:hover {
   color: #ae6de3;
 }
 
@@ -174,7 +175,7 @@ h1 {
   .home {
     display: flex;
     flex-direction: column;
-    margin: 10vw 10vw;
+    margin: 30vw 10vw 70vw;
   }
 
   h4 {
@@ -185,10 +186,10 @@ h1 {
   }
 
   h1 {
-    font-size: 37px;
+    font-size: 36px;
   }
 
-  p {
+  .info {
     font-size: 15px;
   }
 }
