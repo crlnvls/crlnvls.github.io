@@ -70,7 +70,7 @@ img {
   background-color: #ae6de3;
 }
 
-.home {
+#home {
   display: flex;
   flex-direction: column;
   margin: 10vw 20vw 30vw;
@@ -133,8 +133,7 @@ h1 {
   color: #ae6de3;
 }
 
-.about {
-  color: white;
+#about {
   display: flex;
   flex-direction: column;
   margin: 10vw 20vw 10vw;
@@ -145,45 +144,65 @@ h1 {
 }
 
 h2 {
+  color: #ae6de3;
+  font-family: Inconsolata;
   font-size: 30px;
 }
 
 .info-div {
-  max-width: 700px;
-  margin-right: 50px;
+  max-width: 750px;
 }
 
 .about-info {
+  color: rgb(112, 112, 112);
+  font-family: Noto;
   font-size: 20px;
-  line-height: 1.3;
 }
 
 .about-img {
-  width: 320px;
-  height: 300px;
-  border-radius: 30px;
+  width: 300px;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem #43215e, -1rem -1rem #ae6de3;
 }
 
 .skills {
+  color: rgb(187, 187, 187);
+  font-family: Inconsolata;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 3fr 3fr;
 }
 
 li {
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.6;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.project-link {
+  margin-top: 50px;
+  color: #ae6de3;
+  border: 2px solid #ae6de3;
+  border-radius: 5px;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: Inconsolata;
+}
+
+.project-link:hover {
+  background-color: #43215e;
 }
 
 @media only screen and (max-width: 850px) {
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
   .links {
     position: fixed;
     left: -100%;
