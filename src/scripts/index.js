@@ -16,3 +16,14 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }
+
+let prevScroll = window.pageYOffset;
+window.onscroll = function () {
+  let currentScroll = window.pageYOffset;
+  if (prevScroll > currentScroll) {
+    document.getElementById("nav").style.top = "0";
+  } else {
+    document.getElementById("nav").style.top = "-100px";
+  }
+  prevScroll = currentScroll;
+};
