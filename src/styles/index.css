@@ -18,6 +18,7 @@ body {
   width: 100%;
   transition: top 0.3s;
   box-shadow: 0 10px 30px -10px #060309eb;
+  background-color: #13071d;
 }
 
 .navbar {
@@ -136,7 +137,13 @@ h1 {
 #about {
   display: flex;
   flex-direction: column;
-  margin: 10vw 20vw 10vw;
+  margin: 10vw 20vw 30vw;
+}
+
+@media screen and (max-width: 1500px) {
+  #about {
+    margin: 10vw 10vw 30vw;
+  }
 }
 
 .about-div {
@@ -171,11 +178,26 @@ h2 {
   font-family: Inconsolata;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
+  padding: 20px;
+}
+
+::marker {
+  content: "»";
+  font-size: 3em;
+
+  --hue: 0;
+  color: #ae6de3;
 }
 
 li {
   font-size: 18px;
   line-height: 1.6;
+  padding-inline-start: 1ch;
+}
+
+li::marker {
+  --hue: 200;
+  font-size: 1.5em;
 }
 
 .projects {
@@ -241,7 +263,7 @@ li {
     margin: 10px;
   }
 
-  .home {
+  #home {
     display: flex;
     flex-direction: column;
     margin: 30vw 10vw 70vw;
