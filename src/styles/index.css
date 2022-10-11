@@ -133,6 +133,47 @@ h1 {
   color: #ae6de3;
 }
 
+.about {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10vw 20vw 10vw;
+}
+
+.about-div {
+  display: flex;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.info-div {
+  max-width: 700px;
+  margin-right: 50px;
+}
+
+.about-info {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.about-img {
+  width: 320px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
 @media only screen and (max-width: 850px) {
   nav {
     display: flex;
