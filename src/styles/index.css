@@ -118,12 +118,6 @@ h1 {
   background-color: #43215e;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #about {
   display: flex;
   flex-direction: column;
@@ -245,6 +239,12 @@ h3 {
 
 .icon:hover {
   transform: scale(1.2);
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .github-link {
