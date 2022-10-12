@@ -267,24 +267,13 @@ h3 {
   }
 
   #contact {
-    padding: 200px 0;
+    padding: 180px 0;
   }
 }
 @media screen and (max-width: 1300px) {
   #about {
     margin-left: 5%;
     padding: 100px 0;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  #about {
-    margin-left: 15%;
-    padding: 100px 0;
-  }
-
-  #contact {
-    padding: 180px 0;
   }
 }
 
