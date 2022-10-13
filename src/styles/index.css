@@ -171,7 +171,6 @@ h2 {
 li {
   font-size: 18px;
   line-height: 1.6;
-  padding-inline-start: 3px;
 }
 
 li::marker {
@@ -379,6 +378,7 @@ h3 {
     align-items: center;
     margin-top: 40px;
     margin-left: 0;
+    margin-right: 20px;
   }
 
   h3 {
