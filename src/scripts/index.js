@@ -1,3 +1,11 @@
+function animation() {
+  AOS.init({
+    duration: 1200,
+  });
+}
+
+animation();
+
 const hamburger = document.querySelector(".hamburger");
 const links = document.querySelector(".links");
 
@@ -14,7 +22,7 @@ navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
   hamburger.classList.remove("active");
-  navMenu.classList.remove("active");
+  navLink.classList.remove("active");
 }
 
 let prevScroll = window.pageYOffset;
@@ -27,11 +35,3 @@ window.onscroll = function () {
   }
   prevScroll = currentScroll;
 };
-
-function animation() {
-  AOS.init({
-    duration: 1200,
-  });
-}
-
-animation();
