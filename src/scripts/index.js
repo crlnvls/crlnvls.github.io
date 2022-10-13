@@ -1,11 +1,3 @@
-function animation() {
-  AOS.init({
-    duration: 1200,
-  });
-}
-
-animation();
-
 const hamburger = document.querySelector(".hamburger");
 const links = document.querySelector(".links");
 
@@ -35,3 +27,11 @@ window.onscroll = function () {
   }
   prevScroll = currentScroll;
 };
+
+function animation() {
+  AOS.init({
+    duration: 1200,
+  });
+}
+
+animation();
