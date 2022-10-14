@@ -299,7 +299,7 @@ h3 {
 }
 
 .proj-info-two {
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .proj-h-one {
@@ -374,7 +374,9 @@ h3 {
 
 .small {
   background-color: #43215e;
-  padding: 120px;
+  width: 250px;
+  height: 250px;
+  padding: 35px 20px 35px 20px;
   border-radius: 5px;
   margin: 20px 20px 100px 20px;
   transition: transform 250ms;
@@ -382,6 +384,28 @@ h3 {
 
 .small:hover {
   transform: translateY(-15px);
+  cursor: pointer;
+}
+
+.small:hover .proj-name {
+  color: #ae6de3;
+}
+
+.folder {
+  width: 40px;
+}
+
+.proj-name {
+  color: #ccd6f6;
+  font-family: Inconsolata;
+  font-size: 35px;
+  margin: 20px 0 0 0;
+}
+
+.p-proj {
+  color: rgb(126, 124, 124);
+  font-family: Noto;
+  margin: 10px 0 20px 0;
 }
 
 @media screen and (max-width: 1500px) {
