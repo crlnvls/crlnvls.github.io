@@ -378,12 +378,12 @@ h3 {
   height: 250px;
   padding: 35px 20px 35px 20px;
   border-radius: 5px;
-  margin: 20px 20px 100px 20px;
+  margin: 20px 10px 100px 10px;
   transition: transform 250ms;
 }
 
 .small:hover {
-  transform: translateY(-15px);
+  transform: translateY(-25px);
   cursor: pointer;
 }
 
