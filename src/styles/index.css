@@ -260,6 +260,122 @@ h3 {
   color: #43215e;
 }
 
+.heading-proj {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Inconsolata;
+}
+
+.heading-two {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(187, 187, 187);
+}
+
+.projects-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0;
+}
+
+.project-img {
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem #ae6de3, -1rem -1rem #43215e;
+  transition: transform 0.2s;
+}
+
+.project-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.proj-info-one {
+  margin-left: 100px;
+}
+
+.proj-info-two {
+  margin-right: 100px;
+}
+
+.proj-h-one {
+  text-align: end;
+}
+
+.proj-p-one {
+  width: 500px;
+  color: rgb(112, 112, 112);
+  text-align: end;
+  font-family: Noto;
+}
+
+.proj-p-two {
+  width: 500px;
+  color: rgb(112, 112, 112);
+  font-family: Noto;
+}
+
+.frame-div {
+  display: flex;
+  justify-content: end;
+}
+
+.frame-div-two {
+  display: flex;
+  justify-content: start;
+}
+
+.frameworks {
+  color: rgb(187, 187, 187);
+  font-family: Inconsolata;
+  margin-left: 20px;
+}
+
+.frameworks-two {
+  color: rgb(187, 187, 187);
+  font-family: Inconsolata;
+  margin-right: 20px;
+}
+
+.small-links {
+  display: flex;
+  justify-content: end;
+}
+
+.small-links-two {
+  display: flex;
+  justify-content: start;
+}
+
+.small-github {
+  width: 28px;
+  padding: 5px;
+}
+
+.small-link {
+  width: 25px;
+  padding: 5px;
+}
+
+.small-link:hover,
+.small-github:hover {
+  border: #ae6de3 solid 1px;
+}
+
+.small-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  background-color: #43215e;
+  padding: 50px;
+  margin: 40px;
+}
+
 @media screen and (max-width: 1500px) {
   #about {
     margin-left: 10%;
