@@ -370,6 +370,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .small {
@@ -378,7 +379,7 @@ h3 {
   height: 250px;
   padding: 35px 20px 35px 20px;
   border-radius: 5px;
-  margin: 20px 10px 100px 10px;
+  margin: 20px 10px;
   transition: transform 250ms;
 }
 
@@ -545,5 +546,142 @@ h3 {
     margin-left: 8%;
     padding-top: 100px;
     padding-bottom: 160px;
+  }
+
+  .heading-proj {
+    font-size: 40px;
+  }
+
+  .heading-two {
+    font-size: 30px;
+    margin: 60px 0 30px 0;
+  }
+
+  .projects-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 30px 0;
+    border: #ae6de3 solid 2px;
+    padding: 20px 0 20px 0;
+  }
+  .project-img {
+    display: none;
+  }
+
+  .proj-info-one {
+    width: 280px;
+    margin-left: 0px;
+  }
+
+  .proj-info-two {
+    width: 280px;
+    margin-right: 0px;
+  }
+
+  .proj-h-one {
+    text-align: center;
+  }
+
+  .proj-h-two {
+    text-align: center;
+  }
+
+  .proj-p-one {
+    width: 280px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-family: Noto;
+  }
+
+  .proj-p-two {
+    width: 280px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-family: Noto;
+  }
+
+  .frame-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .frame-div-two {
+    display: flex;
+    justify-content: center;
+  }
+
+  .frameworks {
+    margin-left: 10px;
+  }
+
+  .frameworks-two {
+    margin-right: 10px;
+  }
+
+  .small-github {
+    width: 30px;
+    padding: 3px;
+  }
+
+  .small-link {
+    width: 26px;
+    padding: 5px;
+  }
+
+  .small-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .small-links-two {
+    display: flex;
+    justify-content: center;
+  }
+
+  .small-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .small {
+    background-color: #43215e;
+    width: 200px;
+    height: 200px;
+    padding: 25px 20px 25px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 250ms;
+  }
+
+  .small:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+  }
+
+  .small:hover .proj-name {
+    color: #ae6de3;
+  }
+
+  .folder {
+    width: 30px;
+  }
+
+  .proj-name {
+    color: #bdc2d3;
+    font-family: Inconsolata;
+    font-size: 30px;
+    margin: 10px 0 0 0;
+  }
+
+  .p-proj {
+    color: rgb(126, 124, 124);
+    font-family: Noto;
+    margin: 10px 0 10px 0;
+    font-size: 15px;
   }
 }
