@@ -338,6 +338,12 @@ h3 {
 .frameworks-two {
   color: rgb(187, 187, 187);
   font-family: Inconsolata;
+  margin-right: 10px;
+}
+
+.frameworks-three {
+  color: rgb(187, 187, 187);
+  font-family: Inconsolata;
   margin: 20px 20px 0 0;
 }
 
