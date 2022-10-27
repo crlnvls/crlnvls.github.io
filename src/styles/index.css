@@ -338,7 +338,7 @@ h3 {
 .frameworks-two {
   color: rgb(187, 187, 187);
   font-family: Inconsolata;
-  margin-right: 20px;
+  margin: 20px 20px 0 0;
 }
 
 .small-links {
@@ -376,8 +376,8 @@ h3 {
 .small {
   background-color: #43215e;
   width: 250px;
-  height: 250px;
-  padding: 35px 20px 35px 20px;
+  height: 200px;
+  padding: 45px 20px 45px 20px;
   border-radius: 5px;
   margin: 20px 10px;
   transition: transform 250ms;
@@ -394,6 +394,10 @@ h3 {
 
 .folder {
   width: 40px;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .proj-name {
@@ -610,15 +614,10 @@ h3 {
 
   .frame-div-two {
     display: flex;
-    justify-content: center;
   }
 
   .frameworks {
     margin-left: 10px;
-  }
-
-  .frameworks-two {
-    margin-right: 10px;
   }
 
   .small-github {
@@ -651,8 +650,8 @@ h3 {
 
   .small {
     background-color: #43215e;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 180px;
     padding: 25px 20px 25px 20px;
     border-radius: 5px;
     margin: 10px;
@@ -660,12 +659,11 @@ h3 {
   }
 
   .small:hover {
-    transform: translateY(-20px);
-    cursor: pointer;
+    transform: translateY(0px);
   }
 
   .small:hover .proj-name {
-    color: #ae6de3;
+    color: #bdc2d3;
   }
 
   .folder {
