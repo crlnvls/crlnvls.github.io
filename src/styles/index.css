@@ -79,6 +79,15 @@ img {
   margin: 200px 0 255px 0;
 }
 
+.company {
+  color: #ae6de3;
+  text-decoration: none;
+}
+
+.company:hover {
+  text-decoration: underline;
+}
+
 h4 {
   color: #ae6de3;
   font-family: Inconsolata;
